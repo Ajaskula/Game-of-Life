@@ -1,6 +1,4 @@
-Conway's Game of Life
-
-Introduction
+# Introduction
 Conway's Game of Life is a cellular automaton, which simulates a world of cells.
 
 The simulation takes place on a grid, composed of infinitely many rows and columns.
@@ -36,7 +34,7 @@ The window's position on the grid is determined by the position of its top-left 
 
 Initially, the top-left corner of the window is in row 1 and column 1.
 
-Input Data Format
+# Input Data Format
 The program reads the description of the initial generation, followed by a sequence of commands.
 
 The description of the initial generation indicates the living cells and has the format of several rows starting with the '/' (slash) character.
@@ -67,7 +65,7 @@ The contents of the window are presented as ROWS rows, each with length COLUMNS.
 
 The character in each row of the window content indicates the state of the cell. A live cell is represented by the character '0' (zero), and a dead cell is represented by the '.' (dot) character.
 
-Examples
+# Examples
 Below are examples of the program's output when compiled with the command:
 
 gcc @opcje -DWIERSZE=22 -DKOLUMNY=80 zadanie3.c -o zadanie3
