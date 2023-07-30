@@ -68,7 +68,7 @@ The character in each row of the window content indicates the state of the cell.
 # Examples
 Below are examples of the program's output when compiled with the command:
 ```
-gcc @opcje -DWIERSZE=22 -DKOLUMNY=80 zadanie3.c -o zadanie3
+gcc @opcje -DWIERSZE=22 -DKOLUMNY=80 Game_of_life.c -o Game_of_life
 ```
 Input data files with the description of the initial generation and example commands are provided as .in files, and the expected output for each example is provided as .out files.
 
